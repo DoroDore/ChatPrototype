@@ -14,6 +14,8 @@ struct ContentView: View {
                 .padding()
                 .background(Color.yellow, in: RoundedRectangle(cornerRadius: 8))
             Text("VStack = Vertical Stack")
+                .padding()
+                .background(Color.teal, in: RoundedRectangle(cornerRadius: 8))
         }
         .padding()
     }
